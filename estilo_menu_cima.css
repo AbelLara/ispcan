@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div.primeiro ul li a img{
+    width: 50px;
+   
+}
+div.primeiro{
+    top: 0;
+width: 100%;
+position: relative;
+background-color: #0c76b4;
+height: 60px;
+box-shadow: 1px 7px 3px rgba(0,0,0,.8);
+
+}
+div.primeiro ul{
+    top:20px;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   margin: 0px -35px;
+   text-decoration: none;
+  
+   
+    
+}
+div.primeiro ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 30px;
+    
+    
+}
+div.primeiro ul li a{
+    color: white;
+    text-decoration: none;
+   font-size: 18px;
+
+}
+
+div.primeiro ul li :hover{
+
+  color: red;
+  border-bottom: solid 5px red;
+  padding: 18px 0px;
+  transition: .5s;
+
+
+}
+div.primeiro div.imagens span.span1 img{
+   
+}
+div.primeiro div.imagens img{
+    width: 50px;
+    display: none;
+    text-decoration: none;
+}
+div.conta{
+    position: absolute;
+   margin-top: 150px;
+   width: 100%;
+}
+
+
+

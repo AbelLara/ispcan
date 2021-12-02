@@ -1,0 +1,59 @@
+div.primeiro{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    margin-top: 900px;
+    background: linear-gradient(-45deg,white#0c76b4,#4d4d4d,blue   )no-repeat;
+    position: relative;
+    background-size: 300% 300%;
+    animation: hd 3s ease alternate infinite;
+}
+
+
+@keyframes hd{
+from{
+    background-position: 0  50%;
+}
+to{
+
+    background-position: 100% 50%;
+}
+}
+div.primeiro div.conteudo a img{
+    width: 20px;
+
+  padding: 0px 15px;
+  text-align: center;
+
+}
+
+div.primeiror div.conteudo{
+    position: absolute;
+    top: 50px;
+    float: left;
+}
+ div.conteudo a :hover {
+  transition: .7s;
+    transform: translateY(-10px);
+}
+div.primeiro div.conteudo h2{
+ color: white;
+ margin-top: 5px;
+   float: right;
+   
+}
+div.primeiror div.conteudo span img{
+    width: 120px;
+    float: right;
+    margin-top: -35px;
+    margin-left: 400px;
+   
+ 
+}
+div.primeiror div.conteudo h2{
+    cursor: pointer;
+    text-align: center;
+    transition: .7s;
+    transform: translateX(10px);
+}

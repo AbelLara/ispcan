@@ -1,0 +1,79 @@
+div.jumbotron{
+    height: 25px;
+}
+
+
+
+
+
+/*Cabeçalho */
+div.cabecalho{
+    position: relative;
+float: left;
+
+    width: 170px;
+    height: 900px;
+    background-color:#0c76b4;
+}
+
+div.cabecalho ul {
+    position: absolute;
+margin-left: -30px;
+  width: 100%;
+}
+div.cabecalho ul li{
+    list-style: none;
+   padding: 8px 20px;
+   width: 100%;
+   display: flex;
+  
+
+}
+div.cabecalho ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+
+    display: flex;
+   
+   
+}
+div.cabecalho ul li img{
+    width: 30px;
+    margin-top: -15px;
+   
+
+   
+}
+div.cabecalho ul li:hover{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+}
+
+
+
+
+
+
+
+.table{
+    
+}
+
+.containe{
+ 
+    width: 85%;
+    float: right;
+}
+
+.containe{
+    min-width: 50px;
+}
+
+
+
+
+
+/* fothert*/
+

@@ -1,0 +1,29 @@
+.btn-group{
+    float: right;
+}
+body{
+    background-image: url(imagens/qw.jpg);
+    
+}
+
+.jumbotron{
+    background-color:#0c76b4;
+    color: white;
+}
+
+body{
+
+}
+
+.jumbotron h1{
+ 
+transform: translateY(-800px);
+    animation: moringa .9s forwards ;
+}
+
+@keyframes moringa{
+
+    to{
+        transform: translateY(0px);
+    }
+}

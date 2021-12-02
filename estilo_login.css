@@ -1,0 +1,67 @@
+body{
+    background-image: url(rede_social/qw.jpg);
+    width: 500px ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.quadrado{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color: rgba(6, 0,20, 0.3);
+    position: absolute;
+   margin-top: 110px;
+   border-radius: 5px 5px  3px 5px;
+   
+    margin-left: 40%;}
+    .quadrado input[type="submit"]:hover {
+      
+        transition: .9s;
+        width: 320px;
+        background-color: black;
+     
+       
+    }
+    .quadrado input[type="submit"]{
+      
+       border-radius: 20px; 
+       font-size: 15px;
+       width: 250px;
+     
+       
+    }
+
+    .quadrado img{
+        width: 170px;
+        margin-top: -65px;
+        align-items: center;
+        margin-left: 90px;
+    }
+    body{
+        font-family: sans-serif;
+    }
+    .quadrado h3{
+ position: absolute;
+     top: -15px;
+       left: -15px;
+    }
+    h3{
+       color: beige;
+        font-size: 40px;
+   align-items: center;
+   text-align: center;
+        padding: 2px;
+        border-radius: 20px;
+        font-family: cursive;
+        margin-left: 23px;
+        position: absolute;
+    }
+    p{
+        color: beige;
+        margin: 5px 0px ;
+        font-family: cursive;
+    }
+    .cv{
+        margin-top: 30px;
+    }
